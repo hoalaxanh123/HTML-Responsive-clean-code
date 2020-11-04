@@ -1,0 +1,46 @@
+/* Media queries */
+@media (max-width: 768px) {
+  /* ---------------------------------GLOBAL--------------------------------- */
+  body{
+    font-size: 13px;
+  }
+  /* ---------------------------------COMMON--------------------------------- */
+  header #branding,
+  header nav,
+  header nav li,
+  .new-letter h1,
+  .new-letter form,
+  .boxes .box
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  /* ---------------------------------HEADER--------------------------------- */
+  header{
+    padding-bottom: 10px;
+  }
+  /* ---------------------------------SHOWCASE--------------------------------- */
+  .showcase h1{
+    margin-top: 30px;
+  }
+  /* ---------------------------------NEW LETTER--------------------------------- */
+  .new-letter .button{
+    display: block;
+    width: 100%;
+  }
+
+  .new-letter input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  /* ---------------------------------BOXES--------------------------------- */
+  /* ---------------------------------FOOTER--------------------------------- */
+  footer{
+    padding: 10px;
+  }
+}
+
+
+
+}
