@@ -1,4 +1,4 @@
-body{
+body {
   /* font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.5; */
@@ -9,26 +9,35 @@ body{
 }
 
 /* ---------------------------------GLOBAL--------------------------------- */
-.container{
+.container {
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
 
-.header{
+header {
+  width: 100%;
+  transition: 0s;
   background-color: #35424a;
-  color:#ffffff;
-  padding-top:30px;
+  color: #ffffff;
+  padding-top: 30px;
   min-height: 70px;
   border-bottom: #e8491d 3.5px solid;
 }
 
-.button{
+.dark {
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  background: #35424a;
+  color: #ffffff;
+}
+
+.button {
   cursor: pointer;
   height: 38px;
   background: #e8491d;
@@ -38,97 +47,161 @@ ul{
   padding-right: 20px;
 }
 
+/* #loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(192, 192, 192, 0.7);
+  z-index: 9999;
+}
+
+.loading-icon {
+  width: 80px;
+  height: 80px;
+  background-image: url('../images/icons/loading.gif');
+} */
+
 /* ---------------------------------HEADER--------------------------------- */
-header a{
+header a {
   color: #ffffff;
-  /* Remove underline */
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px
 }
 
-header li{
+header li {
   float: left;
   display: inline;
   /* TOP RIGHT BOTTOM LEFT */
   padding: 0 20px 0 20px;
 }
 
-header #branding{
+header #branding {
   float: left;
 }
 
-header #branding h1{
+header #branding h1 {
   margin: 0;
 }
-header nav{
+
+header nav {
   float: right;
   margin-top: 10px;
 }
-header .highlight, header .current a{
+
+header .highlight, header .current a {
   color: #e8491d;
   font-weight: bold;
 }
 
-header a:hover{
+header a:hover {
   color: red;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 /* --------------------------------SHOWCASE-------------------------------- */
-.showcase{
+.showcase {
   min-height: 400px;
   background: url('../images/showcase.jpg') no-repeat 0 -400px;
   text-align: center;
   color: #ffffff;
 }
-.showcase h1{
+
+.showcase h1 {
   margin-top: 100px;
   font-size: 55px;
   margin-bottom: 10px;
 }
-.showcase p{
+
+.showcase p {
   font-size: 20px;
 }
-/* --------------------------------NEW LETTER-------------------------------- */
 
-.new-letter{
+/* --------------------------------NEW LETTER-------------------------------- */
+.new-letter {
   padding: 15px;
   color: #ffffff;
   background: #35424a
 }
-.new-letter h1{
-  float:left;
+
+.new-letter h1 {
+  float: left;
 }
-.new-letter form{
+
+.new-letter form {
   float: right;
   margin-top: 16px;
 }
-.new-letter input[type="email"]{
+
+.new-letter input[type="email"] {
   padding: 4px;
   height: 25px;
   width: 250px;
 }
+
 /* --------------------------------BOXES-------------------------------- */
-.boxes{
+.boxes {
   margin-top: 20px;
   /* text-align: center; */
 }
-.boxes .box{
+
+.boxes .box {
   float: left;
   text-align: center;
   width: 30%;
   padding: 5px;
   margin-left: 2.5%;
 }
-.boxes .box img{
+
+.boxes .box img {
   max-width: 90px;
 }
+
+/* --------------------------------Column-------------------------------- */
+.main-col {
+  float: left;
+  width: 65%;
+}
+
+.second-col {
+  float: right;
+  width: 30%;
+}
+
+/* --------------------------------Qutote-------------------------------- */
+.quote {
+  width: 100%;
+}
+
+.quote input[type="email"], input[type="text"], textarea {
+  width: 99%;
+  max-width: 100%;
+  padding: 4px 0px 0px 0px;
+  height: 25px;
+}
+
+.quote textarea {
+  height: 100%;
+}
+
+/* --------------------------------Services-------------------------------- */
+.services {}
+
+.services li {
+  border: #CCCCC9 solid 1px;
+  margin-bottom: 5px;
+  padding: 25px;
+  background: #e6e6e6;
+}
+
 /* --------------------------------FOOTER-------------------------------- */
-footer{
+footer {
   text-align: center;
   padding: 15px;
   margin-top: 20px;
-  color:#ffffff;
+  color: #ffffff;
   background: #e8491d;
 }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="This is a learning page">
+  <meta name="keywords" content="web, web design">
+  <meta name="author" content="Vuong Nguyen Beginer">
+  <title>Acme Web Design | Welcome</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1> <span class="highlight">Acme</span> website Design</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="current"><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="new-letter">
+    <div class=" container">
+      <h1>Subscribe To Our Newsletter</h1>
+      <form class="subscribe-form" action="index.html" method="post">
+        <input type="email" name="email" placeholder="example@example.com">
+        <input type="submit" name="button_1" value="Subscribe" class="button" onclick="alert('Done')">
+      </form>
+    </div>
+  </section>
+
+  <section class="boxes">
+    <div class="container">
+      <article class="main-col services">
+        <h1>Services</h1>
+        <ul>
+          <li>
+            <h3>Website Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            <p>Pricing: $1,000 - $3,000</p>
+          </li>
+
+          <li>
+            <h3>Website Maintenance</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            <p>Pricing: $250 per month</p>
+          </li>
+
+          <li>
+            <h3>Website Hosting</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+            <p>Pricing: $25 per month</p>
+          </li>
+        </ul>
+      </article>
+      <aside class="second-col">
+        <div class="dark">
+          <h1>Get A Quote</h1>
+          <form class="quote" action="index.html" method="post">
+            <label for="">Name</label>
+            <br />
+            <input type="text" name="" value="" placeholder="Name">
+            <br />
+            <label for="">Email</label>
+            <br />
+            <input type="email" name="" value="" placeholder="example@hotmail.com">
+            <br />
+            <label for="">Message</label>
+            <br />
+            <textarea name="name" rows="8" cols="55" placeholder="Message"></textarea>
+            <br />
+            <input class="button" type="submit"  value="Send">
+          </form>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <p>Acme Web Design, Copyright &copy; 2020</p>
+    </div>
+  </footer>
+</body>
+
+</html>

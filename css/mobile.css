@@ -10,10 +10,12 @@
   header nav li,
   .new-letter h1,
   .new-letter form,
-  .boxes .box
+  .boxes .box,
+  .main-col,
+  .second-col
   {
     float: none;
-    text-align: center;
+    text-align: justify;
     width: 100%;
   }
   /* ---------------------------------HEADER--------------------------------- */
